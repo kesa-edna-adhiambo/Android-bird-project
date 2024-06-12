@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BirdsProject</string>
+    <string name="orange_bird">Orange Bird</string>
+    <string name="todo">TODO</string>
 </resources>

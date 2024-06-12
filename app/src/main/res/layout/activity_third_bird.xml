@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/flyb"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-40dp" />
+        tools:layout_editor_absoluteY="-16dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -25,4 +26,24 @@
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.846" />
+
+    <ImageView
+        android:id="@+id/btnNext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.471"
+        app:srcCompat="@drawable/right_arrow_backup_2_svgrepo_com" />
+
+    <ImageView
+        android:id="@+id/btnPrev2"
+        android:layout_width="47dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"
+        app:srcCompat="@drawable/left_arrow_backup_2_svgrepo_com" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         Picasso
             .get()
             .load("https://i.pinimg.com/474x/17/32/cc/1732cceef56b6c22de807d067ab6d014.jpg")
+            .centerInside()
+            .resize(500,500)
             .into(binding.imageView)
     }
 }
